@@ -12,6 +12,6 @@ module.exports = {
   quoteProps: 'as-needed', // Only quote object keys when necessary
   jsxSingleQuote: false, // Use double quotes in JSX
 
-  // Optional:
-  plugins: [],
+  // taiwlind plugin for class sorting
+  plugins: ['prettier-plugin-tailwindcss'],
 };
