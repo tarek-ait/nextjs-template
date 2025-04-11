@@ -1,6 +1,6 @@
 export default function Dashboard() {
-  const name = 'John Doe'
-  const age = 30
+  const name = 'John Doe';
+  const age = 30;
   const hobbies = ['Reading', 'Traveling', 'Gaming'];
   return (
     <div>
