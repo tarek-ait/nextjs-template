@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "precommit": "npm run format && npm run lint",
     "lint": "next lint",
     "format": "prettier --write ."
   },
