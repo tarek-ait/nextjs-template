@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="-mt-16 flex min-h-screen flex-col items-center justify-center bg-gray-50"
+  >
+    <h1
+      class="mb-8 font-[family-name:var(--font-geist-sans)] text-4xl font-bold text-[#333333]"
+    >
+      Superblog
+    </h1>
+  </div>
+</div>
+`;
