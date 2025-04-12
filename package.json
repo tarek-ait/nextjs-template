@@ -9,7 +9,7 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "prepare": "husky",
-    "test": "jest",
+    "test": "npx jest",
     "test:watch": "jest --watch"
   },
   "prisma": {
