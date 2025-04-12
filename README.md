@@ -10,6 +10,7 @@ This is a [Next.js](https://nextjs.org) project that can be used as a template f
 - **PostCSS**: Configured for advanced CSS processing.
 
 - (we might add shadcn)
+
 ## Getting Started
 
 To use this template, clone the repository and install dependencies:
@@ -54,6 +55,5 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - **ESLint and Prettier**: This template includes ESLint for linting and Prettier for code formatting. Ensure your code adheres to the defined standards by running `npm run lint` and `npm run format`.
 - **Pre-commit Hooks**: This template uses Husky to enforce code quality by running ESLint and Prettier checks on pre-commit. Ensure your code passes these checks before committing.
 - **Environment Variables**: Update the `DATABASE_URL` in the `.env` file to point to your database instance. This is required for Prisma to connect to your database.
-
 
 - or you can use it as a template for another repo.
