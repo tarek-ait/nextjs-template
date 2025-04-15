@@ -11,7 +11,7 @@ const compat = new FlatCompat({
 // i dont want it to check the folders lib and the folder src and all their contents
 
 const eslintConfig = [
-  ...compat.extends('next/core-web-vitals', 'next/typescript', 'plugin:prettier/recommended'),
+  ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
     ignores: [
       'lib/**',
@@ -21,6 +21,9 @@ const eslintConfig = [
       'node_modules/**',
       'tailwind.config.js',
     ],
+    rules: {
+      'prettier/prettier': 'off',
+    },
   },
 ];
 

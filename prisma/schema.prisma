@@ -7,7 +7,6 @@
 // next add whatever you want, and access the database via the prisma client as dhown in the example.
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/app/generated/prisma"
 }
 
 datasource db {
